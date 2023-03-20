@@ -69,7 +69,7 @@
   border: 0;
   background-color: transparent;
   line-height: 0;
-  padding: 6px;
+  padding: 0;
 }
 
 .modal-icon-buy {
@@ -413,12 +413,10 @@ span.swiper-pagination-bullet {
   position: absolute;
   top: 14px;
   right: 14px;
-  width: 24px;
-  height: 24px;
   border: 0;
   background-color: transparent;
   line-height: 0;
-  padding: 6px;
+  padding: 0;
 }
 
 .modal-close-icon-review {
@@ -727,6 +725,8 @@ span.swiper-pagination-bullet {
 
 .modal-close-icon-thx {
   stroke: #f16529;
+  width: 16px;
+  height: 16px;
 }
 
 .modal-container-thx {
@@ -780,6 +780,11 @@ span.swiper-pagination-bullet {
     width: 40px;
     height: 40px;
     padding: 8px;
+  }
+
+  .modal-close-icon-thx {
+    width: 22px;
+    height: 22px;
   }
 
   .modal-container-thx {
