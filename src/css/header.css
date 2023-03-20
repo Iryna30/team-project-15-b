@@ -109,11 +109,13 @@ body {
 .svg-link {
     max-width: 22px;
     max-height: 22px;
-    fill: var(--white);
+    stroke: var(--white);
+    fill: var(--purple);
 }
 
 .svg-link:is(:hover, :focus) {
-    fill: var(--orange);
+    stroke: var(--orange);
+    cursor: pointer;
 }
 
 .item-mod-link {
@@ -197,9 +199,12 @@ body {
     .svg-link-hdr {
         max-width: 24px;
         max-height: 24px;
+        stroke: var(--black-color);
+        fill: var(--white);
     }
     
     .svg-link-hdr:is(:hover, :focus) {
-        fill: var(--orange);
+        stroke: var(--orange);
+        cursor: pointer;
     }
 }
