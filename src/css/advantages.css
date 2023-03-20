@@ -47,14 +47,14 @@
     display: flex;
   
     /* margin-left: calc(-1 * var(--card-set-gap)); */
-    margin-top: calc(-1 * var(--card-set-gap));
-    margin-right: var(--card-set-gap);
+    /* margin-top: calc(-1 * var(--card-set-gap));
+    margin-right: var(--card-set-gap); */
   }
-  .advantages-card-set > .item {
+  /* .advantages-card-set > .item {
     flex-basis: calc(100% / 3 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
-  }
+  } */
   
   /* CARD */
   .advantages-card {
