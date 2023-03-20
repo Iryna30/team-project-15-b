@@ -3,7 +3,7 @@
 	.how-oll {
 			display: block;
 			text-align: center;
-			
+			padding-top: 72px;
 		}
 
 	.how-h2 {
@@ -70,6 +70,7 @@
 	.how-oll {
 			display: block;
 			text-align: center;
+			padding-top: 72px;
 		}
 
 	li {
@@ -146,6 +147,7 @@
 			display: block;
 			text-align: center;
 			padding: 0 32px;
+			padding-top: 100px;
 		}
 
 	
@@ -239,6 +241,7 @@
 		display: block;
 		text-align: center;
 		padding: 0 32px;
+		padding-top: 128px;
 	}
 
 	.how-h2 {
