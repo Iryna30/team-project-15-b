@@ -1,0 +1,171 @@
+.footer-fill {
+    background-color: var(--purple);
+}
+
+.icon-svg {
+    stroke: var(--white);
+}
+
+.icon-svg:hover {
+
+    stroke: var(--orange);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.footer {
+
+    padding: 32px 20px;
+}
+
+.footer-slogan {
+    max-width: 300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: var(--white);
+    margin-bottom: 32px;
+}
+
+/* Address */
+.contacts-us {
+    margin-bottom: 14px;
+}
+
+.footer-accent {
+
+    color: var(--orange);
+}
+
+.address-tel {
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.contacts-tel {
+    margin-bottom: 4px;
+}
+
+.address-soc-list-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-address {
+    width: 164px;
+    margin-bottom: 32px;
+
+}
+
+/* soc-list */
+.soc-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+/* Footer anchor menu */
+.footer-anchor-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(--white);
+
+}
+
+.footer-anchor-items {
+    margin-bottom: 18px;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 375px) {
+
+    .footer-section {
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-section {
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+    }
+
+    .footer-anchor-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .border {
+        margin-bottom: 24px;
+
+    }
+
+    .footer-anchor-items {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding: 50px 32px;
+        padding-bottom: 50px;
+    }
+
+    .footer-wrap {
+        display: flex;
+
+    }
+
+    .footer-slogan {
+        font-size: 28px;
+        line-height: 1.21;
+        margin-right: 124px;
+
+    }
+
+    .footer-address {
+        margin-right: 52px;
+    }
+
+    .icon-svg {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .footer-section {
+        width: 1200px;
+    }
+
+    .footer-wrap {
+        justify-content: space-between;
+    }
+}

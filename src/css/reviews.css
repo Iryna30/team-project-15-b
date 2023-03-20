@@ -1,0 +1,149 @@
+.reviews {
+    padding-bottom: 72px;
+}
+
+.reviews-container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first-title-part {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24 /20);
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.reviews-title {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24 /20);
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.reviews-swiper {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.reviews-swiper-wrapper {
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+
+.reviews-swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    gap: 24px;
+    background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+    border-radius: 15px;
+}
+
+.person-info {
+    position: relative;
+    top: -42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 0px;
+    gap: 18px;
+}
+
+.person-full-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(24 /18);
+    text-align: center;
+    color: var(--black-color);
+}
+
+.person-review {
+    position: relative;
+    top: -42px;
+    padding: 0 18px;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.reviews-swiper-pagination {
+    position: static;
+}
+
+.reviews-swiper .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    gap: 13px;
+    opacity: 1;
+    background-color: rgba(17, 17, 17, 0.1);
+    transition-property: width, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reviews-swiper .swiper-pagination-bullet-active {
+    width: 28px;
+    height: 13px;
+    background-color: #FD9222;
+    border-radius: 6px;
+}
+
+.reviews-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    margin: 0 auto;
+    gap: 14px;
+    width: 165px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: calc(17/ 14);
+    color: var(--black-color);
+    border: 1px solid var(--orange);
+    border-radius: 100px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reviews-btn:is(:hover, :focus) {
+    background: #FD9222;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 375px) {
+    .reviews-container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .reviews-container {
+        max-width: 1200px;
+    }
+}
