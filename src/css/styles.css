@@ -22,4 +22,9 @@
   --purple: #1E1823;
   --orange: #FD9222;
   --white: #ffffff;
+  --body-color:#FAFAFA;
+}
+
+body{
+  background-color: var(--body-color);
 }
