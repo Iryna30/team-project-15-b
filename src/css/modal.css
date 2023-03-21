@@ -59,7 +59,9 @@
   padding: 32px 24px;
   border-radius: 15px;
 }
-
+.swiper-slide-buy {
+  justify-content: space-between;
+}
 .modal-close-btn-buy {
   position: absolute;
   top: 14px;
