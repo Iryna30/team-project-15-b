@@ -193,7 +193,6 @@
 
 	.how-ul {
 		text-align: left;
-		width: 614px;
 	}
 
 	.how-container-two {
@@ -212,6 +211,7 @@
 		letter-spacing: -0.02em;
 		margin-bottom: 18px;
 		display: flex;
+		max-width: 464px;
 	}
 
 	.rrr {
@@ -226,7 +226,7 @@
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1199px) {
 
 	.how-video {
 		width: 600px;
@@ -288,6 +288,7 @@
 		letter-spacing: -0.02em;
 		margin-bottom: 18px;
 		display: flex;
+		max-width: 516px;
 	}
 
 	.rrr {
