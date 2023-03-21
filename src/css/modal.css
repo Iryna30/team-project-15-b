@@ -164,8 +164,8 @@
   display: block;
   position: absolute;
   z-index: 1;
-  top: 16px;
-  right: 19px;
+  top: 12px;
+  right: 14px;
 }
 
 .modal-form-personal-info {
@@ -324,10 +324,10 @@
   }
 
   .modal-card-icon {
-    width: 30px;
-    height: 19px;
-    top: 24px;
-    right: 31px;
+    width: 44px;
+    height: 30px;
+    top: 18px;
+    right: 24px;
   }
 
   .modal-form-personal-info {
@@ -422,6 +422,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
+  text-align: left;
   line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -430,6 +431,7 @@
 
 .modal-title-position-review {
   display: block;
+  text-align: left;
 }
 
 .modal-title-accent-review {
@@ -656,6 +658,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #fcf1e0;
+  text-align: left;
 }
 
 .modal-title-feedback-position {
@@ -669,6 +672,11 @@
   letter-spacing: -0.02em;
   color: var(--white);
   margin-top: 8px;
+  text-align: left;
+}
+
+.modal-text-feedback-position {
+  display: block;
 }
 
 .modal-feedback-img {
@@ -708,6 +716,10 @@
   .modal-text-feedback {
     font-size: 18px;
     line-height: 1.33;
+  }
+
+  .modal-text-feedback-position {
+    display: inline;
   }
 }
 
@@ -757,6 +769,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #fcf1e0;
+  text-align: left;
 }
 
 .modal-text-thx {
