@@ -157,10 +157,15 @@
 
 .modal-card-logo {
   display: flex;
+  position: relative;
 }
 
 .modal-card-icon {
   display: block;
+  position: absolute;
+  z-index: 1;
+  top: 16px;
+  right: 19px;
 }
 
 .modal-form-personal-info {
@@ -241,7 +246,7 @@
   font-size: 14px;
   line-height: calc(17 / 14);
   text-align: center;
-  display: inline-block;
+  display: flex;
   padding: 12px 28px;
   border-radius: 100px;
   border: inherit;
@@ -318,6 +323,13 @@
     line-height: 1.29;
   }
 
+  .modal-card-icon {
+    width: 30px;
+    height: 19px;
+    top: 24px;
+    right: 31px;
+  }
+
   .modal-form-personal-info {
     width: 513px;
     display: flex;
@@ -370,6 +382,7 @@
 
   .modal-button-buy {
     padding: 14px 40px;
+    display: flex;
   }
 }
 
@@ -502,7 +515,7 @@
   font-size: 14px;
   line-height: calc(17 / 14);
   text-align: center;
-  display: inline-block;
+  display: flex;
   padding: 12px 28px;
   border-radius: 100px;
   border: inherit;
