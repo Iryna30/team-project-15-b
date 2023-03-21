@@ -69,12 +69,9 @@
   background-color: var(--orange);
 }
 
-.components-link {
-  position: relative;
-  display: block;
+.components-card {
   width: 100%;
   height: auto;
-  text-decoration: none;
   background-color: transparent;
 }
 .components-img {
@@ -100,7 +97,7 @@
   transition: transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transform-style: preserve-3d;
 }
-.components-link:is(:hover, :focus) .components-card-inner {
+.components-card:is(:hover, :focus) .components-card-inner {
   transform: rotateY(180deg);
 }
 .components-card-front,
