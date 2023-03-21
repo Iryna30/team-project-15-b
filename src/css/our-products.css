@@ -95,11 +95,7 @@
 
 @media screen and (min-width: 768px) {
   .container-products {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 33px;
-    padding-right: 33px;
-    min-width: 768px;
+    max-width: 1136px;
   }
   .section-products {
     padding-top: 100px;
