@@ -28,6 +28,9 @@
 
 body {
   background-color: var(--body-color);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .swiper-pagination {
