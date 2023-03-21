@@ -155,6 +155,14 @@
   text-align: left;
 }
 
+.modal-card-logo {
+  display: flex;
+}
+
+.modal-card-icon {
+  display: block;
+}
+
 .modal-form-personal-info {
   display: flex;
   flex-direction: column;
@@ -500,6 +508,14 @@
   border: inherit;
   background-color: var(--orange);
   color: var(--white);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button-review:hover,
+.modal-button-review:focus {
+  background-color: #fcf1e0;
+  color: var(--orange);
 }
 
 /* ===================================================== */
@@ -890,8 +906,15 @@
   border: inherit;
   background-color: var(--orange);
   color: var(--white);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button-explore:hover,
+.modal-button-explore:focus {
+  background-color: #fcf1e0;
+  color: var(--orange);
+}
 /* ======================================================= */
 /* ================TABLET/DESKTOP STYLE=================== */
 /* =======================EXPLORE========================= */
