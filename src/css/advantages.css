@@ -1,20 +1,7 @@
 :root {
-  --purple: #1e1823;
-  --orange: #FD9222;
-  --white: #ffffff;
   --card-set-gap: 50px;
 }
 
-/* body {
-  background-color: var(--page-bg-color);
-  color: var(--primary-text-color);
-  line-height: 1.5;
-  font-family: 'Montserrat', sans-serif;
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-} */
 
 
 /* PAGE */
@@ -25,12 +12,14 @@
 }
 
 /* CONTAINER */
+.section-advantages {
+  background-color:var(--purple);
+}
 .advantages-container {
   width: 100%;
   min-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  background-color:var(--purple);
   padding-left: 20px;
   padding-bottom:36px;
   padding-top: 20px;
@@ -176,16 +165,17 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .advantages-item:not(:last-child)::after {
+    content: "";
+    width: 124px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    transform: rotate(90deg);
+    top: 50%;
+    right: -60px;
+    }
 }
-.advantages-item:not(:last-child)::after {
-  content: "";
-  width: 124px;
-  height: 0px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  position: absolute;
-  transform: rotate(90deg);
-  top: 50%;
-  right: -60px;
-  }
+
 /* .advantages-item:last-child::after {
   display: none;} */
