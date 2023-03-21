@@ -151,20 +151,17 @@
     </label>
     <label class="">
       <span class="modal-form-title-buy">Card number</span>
-      <span class="modal-card-logo">
-        <svg class="modal-card-icon" width="32" height="21">
-          <use href="./img/symbol-defs.svg#icon-Mastercard"></use>
-        </svg>
+      <span class="">
+        <input
+          class="modal-form-input-buy"
+          type="tel"
+          name="user_card"
+          placeholder="Enter card"
+          required
+          pattern="[0-9]+"
+          maxlength="10"
+        />
       </span>
-      <input
-        class="modal-form-input-buy"
-        type="tel"
-        name="user_card"
-        placeholder="Enter card"
-        required
-        pattern="[0-9]+"
-        maxlength="10"
-      />
     </label>
     <label class="modal-form-textarea">
       <span class="modal-form-title-buy">Comment</span>
@@ -301,10 +298,7 @@
     <span class="modal-title-feedback-position">thank you </span> for your
     feedback!
   </h1>
-  <p class="modal-text-feedback">
-    We are so happy to hear
-    <span class="modal-text-feedback-position">from you!</span>
-  </p>
+  <p class="modal-text-feedback">We are so happy to hear from you!</p>
   <picture class="modal-feedback-img">
     <source
       srcset="/img/tab-desc-thx-choco.png 1x, /img/tab-desc-thx-choco@2x.png 2x"
