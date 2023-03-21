@@ -26,7 +26,7 @@
   letter-spacing: -0.03em;
   color: var(--orange);
 }
-.image-slider{
+.image-slider {
   overflow-x: hidden;
 }
 .image-slider__image {
@@ -130,7 +130,7 @@
 }
 @media screen and (max-width: 767px) {
   .container-products {
-    width: 375px;
+    max-width: 375px;
   }
   .image-slider__slide {
     width: 335px;
