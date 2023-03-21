@@ -28,23 +28,23 @@
   </head>
 
   <body>
-    <header id="sectionHome">
+    <header id="section-home">
     <div class="header-container">
         <div class="container-link">
-            <a href="../index.html" class="link-header"><span class="span-header">Simply</span> Chocolate</a>
+            <a href="./index.html" class="link-header"><span class="span-header">Simply</span> Chocolate</a>
             <svg class="svg-header">
                 <use href="/team-project-15-b/assets/symbol-defs-7965e03e.svg#icon-logo"></use>
             </svg>
         </div>
-        <button class="header-button js-open-menu" aria-expanded="false"
-        aria-controls="mobile-menu">
-            <img srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAuSURBVHgB7dIBDQAgDAPBPQoqEZQhtYggJCzpaTgkTWDXA7bXqIhbpGn8r3/TAwWgDbq7NRqvAAAAAElFTkSuQmCC 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAgCAYAAABts0pHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgB7dYxDoAgDEDRVhdGuIFH8EZeyRvq6sYRbI1hZ2nS5L+hZYUwfBVTaz1U9fSj5HCrz9baZWuTRJZ/Z3npYfVRSnnsq+yS5wJdAADAhC+yqMNA1GEw6hAAgCnUYTTqMFh/AXEREK721KmLAAAAAElFTkSuQmCC 2x" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAuSURBVHgB7dIBDQAgDAPBPQoqEZQhtYggJCzpaTgkTWDXA7bXqIhbpGn8r3/TAwWgDbq7NRqvAAAAAElFTkSuQmCC" alt="menu">
+        <button class="header-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <img srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAuSURBVHgB7dIBDQAgDAPBPQoqEZQhtYggJCzpaTgkTWDXA7bXqIhbpGn8r3/TAwWgDbq7NRqvAAAAAElFTkSuQmCC 1x, data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAgCAYAAABts0pHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgB7dYxDoAgDEDRVhdGuIFH8EZeyRvq6sYRbI1hZ2nS5L+hZYUwfBVTaz1U9fSj5HCrz9baZWuTRJZ/Z3npYfVRSnnsq+yS5wJdAADAhC+yqMNA1GEw6hAAgCnUYTTqMFh/AXEREK721KmLAAAAAElFTkSuQmCC 2x"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAuSURBVHgB7dIBDQAgDAPBPQoqEZQhtYggJCzpaTgkTWDXA7bXqIhbpGn8r3/TAwWgDbq7NRqvAAAAAElFTkSuQmCC" alt="menu">
         </button>
 
         <nav class="da">
             <ul class="list-nav">
                 <li class="item-header">
-                    <a href="#sectionHome">Home</a>
+                    <a href="#section-home">Home</a>
                 </li>
                 <li class="item-header">
                     <a href="#how-its-Made">How it&#884;s made?</a>
@@ -127,21 +127,19 @@
     </p>
     <ul class="hero-flex-btn">
       <li>
-        <button
-          class="hero-btn-modal js-open-modal"
-          type="button"
-          data-modal="new-buy"
-        >
+        <button class="hero-btn-modal js-open-modal" type="button" data-modal="new-buy">
           Buy now
         </button>
       </li>
       <li>
-        <button class="hero-btn-how" type="button" id="#">
+        <!-- <button class="hero-btn-how" type="button" href="#how-its-Made">
           How it&#39;s made
-        </button>
+        </button> -->
+        <button class="hero-btn-how" type="button"><a href="#how-its-Made">How it&#39;s made</a></button>
+
       </li>
       <li class="item-margin">
-        <button class="hero-btn-footer" type="button" id="#">
+        <button class="hero-btn-footer" type="button" href="#footer">
           <span class="hero-text">scroll down</span>
           <span class="hero-icon-div">
             <svg class="hero-svg" height="16px" width="16px">
@@ -149,11 +147,21 @@
             </svg>
           </span>
         </button>
+        <!-- <button class="hero-btn-footer" type="button">
+          <a href="#footer">
+            <span class="hero-text">scroll down</span>
+            <span class="hero-icon-div">
+              <svg class="hero-svg" height="16px" width="16px">
+                <use href="./img/symbol-defs.svg#icon-scroll"></use> -->
+        </svg>
+        </span>
+        </a>
+        </button>
+
       </li>
     </ul>
   </div>
 </section>
-
       <!-- Section Advantages -->
 <section class="section-advantages">
   <div class="advantages-container">
@@ -686,7 +694,7 @@
   </div>
 </section>
 
-      <section class="reviews" id="“chocolate-is-loved”">
+      <section class="reviews" id="chocolate-is-loved">
   <div class="reviews-container container">
     <h2 class="reviews-title">
       <span class="first-title-part">chocolate</span> is loved
@@ -695,14 +703,8 @@
       <div class="reviews-swiper-wrapper swiper-wrapper">
         <div class="reviews-swiper-slide swiper-slide">
           <div class="person-info">
-            <img
-              class="person-img"
-              src="/team-project-15-b/assets/person1-55603b9d.png"
-              srcset="/team-project-15-b/assets/person1-55603b9d.png 1x, /team-project-15-b/assets/person1-2x-d8559547.png 2x"
-              alt="person1"
-              width="80"
-              height="80"
-            />
+            <img class="person-img" src="/team-project-15-b/assets/person1-55603b9d.png" srcset="/team-project-15-b/assets/person1-55603b9d.png 1x, /team-project-15-b/assets/person1-2x-d8559547.png 2x"
+              alt="person1" width="80" height="80" />
             <p class="person-full-name">Victoria Dobrzhanska</p>
           </div>
           <p class="person-review">
@@ -712,14 +714,8 @@
         </div>
         <div class="reviews-swiper-slide swiper-slide">
           <div class="person-info">
-            <img
-              class="person-img"
-              src="/team-project-15-b/assets/person2-2f3bad16.png"
-              srcset="/team-project-15-b/assets/person2-2f3bad16.png 1x, /team-project-15-b/assets/person2-2x-b7eb67ec.png 2x"
-              alt="person2"
-              width="80"
-              height="80"
-            />
+            <img class="person-img" src="/team-project-15-b/assets/person2-2f3bad16.png" srcset="/team-project-15-b/assets/person2-2f3bad16.png 1x, /team-project-15-b/assets/person2-2x-b7eb67ec.png 2x"
+              alt="person2" width="80" height="80" />
             <p class="person-full-name">Nazar Babenko</p>
           </div>
           <p class="person-review">
@@ -730,14 +726,8 @@
         </div>
         <div class="reviews-swiper-slide swiper-slide">
           <div class="person-info">
-            <img
-              class="person-img"
-              src="/team-project-15-b/assets/person3-45099b44.png"
-              srcset="/team-project-15-b/assets/person3-45099b44.png 1x, /team-project-15-b/assets/person3-2x-47599437.png 2x"
-              alt="person3"
-              width="80"
-              height="80"
-            />
+            <img class="person-img" src="/team-project-15-b/assets/person3-45099b44.png" srcset="/team-project-15-b/assets/person3-45099b44.png 1x, /team-project-15-b/assets/person3-2x-47599437.png 2x"
+              alt="person3" width="80" height="80" />
             <p class="person-full-name">Olena Kampusch</p>
           </div>
           <p class="person-review">
@@ -747,14 +737,8 @@
         </div>
         <div class="reviews-swiper-slide swiper-slide">
           <div class="person-info">
-            <img
-              class="person-img"
-              src="/team-project-15-b/assets/person4-37aba131.png"
-              srcset="/team-project-15-b/assets/person4-37aba131.png 1x, /team-project-15-b/assets/person4-2x-8aaf8c04.png 2x"
-              alt="person4"
-              width="80"
-              height="80"
-            />
+            <img class="person-img" src="/team-project-15-b/assets/person4-37aba131.png" srcset="/team-project-15-b/assets/person4-37aba131.png 1x, /team-project-15-b/assets/person4-2x-8aaf8c04.png 2x"
+              alt="person4" width="80" height="80" />
             <p class="person-full-name">Natalia Sus</p>
           </div>
           <p class="person-review">
@@ -764,14 +748,8 @@
         </div>
         <div class="reviews-swiper-slide swiper-slide">
           <div class="person-info">
-            <img
-              class="person-img"
-              src="/team-project-15-b/assets/person5-b11d649c.png"
-              srcset="/team-project-15-b/assets/person5-b11d649c.png 1x, /team-project-15-b/assets/person5-2x-1fcd5e61.png 2x"
-              alt="person5"
-              width="80"
-              height="80"
-            />
+            <img class="person-img" src="/team-project-15-b/assets/person5-b11d649c.png" srcset="/team-project-15-b/assets/person5-b11d649c.png 1x, /team-project-15-b/assets/person5-2x-1fcd5e61.png 2x"
+              alt="person5" width="80" height="80" />
             <p class="person-full-name">Danilo Nottingham</p>
           </div>
           <p class="person-review">
@@ -782,18 +760,13 @@
         </div>
         <div class="reviews-swiper-slide swiper-slide">
           <div class="person-info">
-            <img
-              class="person-img"
-              src="/team-project-15-b/assets/person6-464e6ac3.png"
-              srcset="/team-project-15-b/assets/person6-464e6ac3.png 1x, /team-project-15-b/assets/person6-2x-58da3d61.png 2x"
-              alt="person6"
-              width="80"
-              height="80"
-            />
+            <img class="person-img" src="/team-project-15-b/assets/person6-464e6ac3.png" srcset="/team-project-15-b/assets/person6-464e6ac3.png 1x, /team-project-15-b/assets/person6-2x-58da3d61.png 2x"
+              alt="person6" width="80" height="80" />
             <p class="person-full-name">Irina Tydnyuk</p>
           </div>
           <p class="person-review">
-            This is simply the best chocolate around, and I'm just thrilled to support a local company! Best local chocolate - world class :)
+            This is simply the best chocolate around, and I'm just thrilled to support a local company! Best local
+            chocolate - world class :)
           </p>
         </div>
       </div>
@@ -805,7 +778,6 @@
     Leave a review
   </button>
 </section>
-
       <section class="subscribe-section">
   <div class="subscribe-container">
     <h2 class="subscribe-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
@@ -1201,7 +1173,7 @@
             <ul class="footer-anchor-list">
                 <li class="footer-anchor-items"><a class="footer-anchor-link" href="#section-home">Home</a></li>
                 <li class="footer-anchor-items"><a class="footer-anchor-link" href="#how-its-Made">How
-                        it’s
+                        it&#39;s
                         made?</a></li>
                 <li class="footer-anchor-items"><a class="footer-anchor-link" href="#our-products">Our
                         products</a>
