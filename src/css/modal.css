@@ -98,6 +98,7 @@
 .modal-swiper-item {
   width: 100%;
   max-width: 231px;
+  margin: 0 auto;
 }
 
 .modal-swiper-window {
@@ -105,6 +106,7 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 28px;
   margin-bottom: 20px;
@@ -276,13 +278,19 @@
     gap: 16px;
   }
 
+  .swiper-slide-buy {
+    margin-bottom: 0;
+  }
+
   .modal-swiper-item {
     width: 160px;
+    height: 196px;
   }
 
   .modal-swiper-window {
     padding-bottom: 18px;
     height: 196px;
+    justify-content: end;
   }
 
   .modal-swiper-window-info {

@@ -31,3 +31,19 @@ new Swiper('.image-slider', {
         }
     }
 });
+
+new Swiper('.modal-swiper', {
+    pagination: {
+        el: '.modal-swiper-pagination',
+        clickable:true,
+    },
+    slidesPerView: 1,
+      breakpoints: {
+        768: {
+            slidesPerView: 3,         
+        },
+        1200: {
+            slidesPerView: 4,          
+        }
+    }
+});
