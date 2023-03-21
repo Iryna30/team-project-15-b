@@ -89,7 +89,7 @@
       </div>
     </div>
   </ul>
-  <div class="swiper-pagination"></div>
+  <div class="modal-swiper-pagination"></div>
   <form class="modal-form-buy">
     <label>
       <span class="modal-form-title-buy">Personal information</span>
@@ -150,17 +150,20 @@
     </label>
     <label class="">
       <span class="modal-form-title-buy">Card number</span>
-      <span class="">
-        <input
-          class="modal-form-input-buy"
-          type="tel"
-          name="user_card"
-          placeholder="Enter card"
-          required
-          pattern="[0-9]+"
-          maxlength="10"
-        />
+      <span class="modal-card-logo">
+        <svg class="modal-card-icon" width="32" height="21">
+          <use href="./img/symbol-defs.svg#icon-Mastercard"></use>
+        </svg>
       </span>
+      <input
+        class="modal-form-input-buy"
+        type="tel"
+        name="user_card"
+        placeholder="Enter card"
+        required
+        pattern="[0-9]+"
+        maxlength="10"
+      />
     </label>
     <label class="modal-form-textarea">
       <span class="modal-form-title-buy">Comment</span>

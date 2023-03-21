@@ -77,10 +77,7 @@ letter-spacing: -0.02em;
     
     min-width: 120px;
     height: 41px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 40px;
-    padding-right: 40px;
+
     background-color: var(--orange);
     border-radius: 100px;
     border: transparent;

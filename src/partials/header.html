@@ -7,8 +7,9 @@
             </svg>
         </div>
         <button class="header-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-            <img srcset="./img/Iconmenu-header-btn.png 1x, ./img/Iconmenu-header-btn@2.png 2x"
-                src="./img/Iconmenu-header-btn.png" alt="menu">
+            <svg class="menu-burger">
+                <use href="../img/symbol-defs.svg#icon-burger"></use>
+            </svg>
         </button>
 
         <nav class="da">
@@ -46,13 +47,13 @@
     </div>
 
     <div class="container-menu js-menu-container" id="mobile-menu">
-        <button class="btn-close-modal js-close-menu">
+        <div class="close-btn-container">
+            <button class="btn-close-modal js-close-menu">
             <svg class="svg-modal">
                 <use href="./img/symbol-defs.svg#icon-close"></use>
             </svg>
         </button>
-
-        <nav class="list-nav-modal">
+             <nav class="list-nav-modal">
             <ul>
                 <li class="item-list-nav">
                     <a href="#section-home">Home</a>
@@ -71,6 +72,10 @@
                 </li>
             </ul>
         </nav>
+        </div>
+
+        <div class="mobile-menu-list">
+           
 
         <ul class="link-modal">
             <li class="item-mod-link">
@@ -84,5 +89,7 @@
                 </svg>
             </li>
         </ul>
+    </div>
+        
     </div>
 </header>
