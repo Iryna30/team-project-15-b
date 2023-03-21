@@ -10,14 +10,14 @@
     text-align: center;
     background-color: #1E1823;
   
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/Subcribe-mob.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/Subcribe-mob.jpg);
     background-size: cover;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
   .subscribe-section {
-     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/Subcribe-mob@2x.jpg);
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/Subcribe-mob@2x.jpg);
     }
   }
   
@@ -103,14 +103,14 @@
    padding-top: 72px;
    padding-bottom: 72px;
   
-   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/Subcribe-tablet.jpg);
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/Subcribe-tablet.jpg);
    background-size: cover;
   }
   @media (min-device-pixel-ratio: 2),
    (min-resolution: 192dpi),
    (min-resolution: 2dppx) {
    .subscribe-section {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/Subcribe-tablet@2x.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/Subcribe-tablet@2x.jpg);
    }
   } 
   
@@ -138,14 +138,14 @@
   
   @media screen and (min-width: 1200px) {
   .subscribe-section {
-   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/Subcribe-desktop.jpg);
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/Subcribe-desktop.jpg);
    background-size: cover;
   }
   @media (min-device-pixel-ratio: 2),
    (min-resolution: 192dpi),
    (min-resolution: 2dppx) {
    .subscribe-section {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/../img/Subcribe-desktop@2x.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/Subcribe-desktop@2x.jpg);
    }
   } 
   
