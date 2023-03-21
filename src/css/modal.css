@@ -93,9 +93,9 @@
   color: #fd9222;
 }
 
-.swiper-horizontal {
+/* .swiper-horizontal {
   width: 231px;
-}
+} */
 
 .modal-swiper-item {
   width: 100%;
@@ -135,7 +135,7 @@
   padding-top: 32px;
 }
 
-div .swiper-pagination {
+/* div .swiper-pagination {
   position: relative;
 }
 
@@ -161,7 +161,7 @@ span.swiper-pagination-bullet {
   width: 28px;
   border-radius: 100px;
   background: var(--orange);
-}
+} */
 
 .modal-form-buy {
   display: flex;
@@ -970,8 +970,8 @@ span.swiper-pagination-bullet {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .modal-explore-background {
     background-image: url('./mobile-img/tab-desc-explore@2x.jpg');
   }

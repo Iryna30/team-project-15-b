@@ -82,7 +82,7 @@
     color: rgba(17, 17, 17, 0.7);
 }
 
-.reviews-swiper-pagination {
+/* .reviews-swiper-pagination {
     position: static;
 }
 
@@ -102,7 +102,7 @@
     height: 13px;
     background-color: var(--orange);
     border-radius: 6px;
-}
+} */
 
 .reviews-btn {
     display: flex;
