@@ -93,10 +93,6 @@
   color: #fd9222;
 }
 
-/* .swiper-horizontal {
-  width: 231px;
-} */
-
 .modal-swiper-item {
   width: 100%;
   max-width: 231px;
@@ -134,34 +130,6 @@
 .modal-swiper-img {
   padding-top: 32px;
 }
-
-/* div .swiper-pagination {
-  position: relative;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-}
-
-span.swiper-pagination-bullet {
-  height: 13px;
-  width: 13px;
-  margin: 0;
-  background: rgba(17, 17, 17, 0.1);
-}
-
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet-active {
-  width: 28px;
-  border-radius: 100px;
-  background: var(--orange);
-} */
 
 .modal-form-buy {
   display: flex;
@@ -970,9 +938,9 @@ span.swiper-pagination-bullet {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .modal-explore-background {
-    background-image: url('./mobile-img/tab-desc-explore@2x.jpg');
+    background-image: url('/img/tab-desc-explore@2x.jpg');
   }
 }
