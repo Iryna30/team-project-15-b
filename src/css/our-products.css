@@ -3,8 +3,7 @@
   margin-right: auto;
 }
 .section-products {
-  background: #e2e2e2;
-  padding-bottom: 72px;
+  padding-top: 72px;
 }
 
 .heading-products {
@@ -103,7 +102,7 @@
     min-width: 768px;
   }
   .section-products {
-    padding-bottom: 100px;
+    padding-top: 100px;
   }
   .heading-products {
     font-size: 24px;
@@ -138,6 +137,6 @@
 }
 @media screen and (min-width: 1199px) {
   .section-products {
-    padding-bottom: 128px;
+    padding-top: 128px;
   }
 }
