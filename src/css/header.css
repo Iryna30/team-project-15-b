@@ -66,23 +66,22 @@ body {
     color: var(--white);
     margin-left: auto;
     border-radius: 50%;
-    padding: 6px 6px;
     font-size: 18px;
+    padding: 0;
 }
 
-.btn-close-modal:is(:hover,) {
+.btn-close-modal:is(:hover, :focus) .svg-modal{
     background-color: #FCF1E0;
-    color: #D44528;
+    stroke: #D44528;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 .svg-modal {
-    max-width: 22px;
-    max-height: 16px;
+    max-width: 28px;
+    max-height: 28px;
+    padding: 6px 6px;
     stroke: var(--white);
-}
-
-.svg-modal:is(:hover, :focus) {
-    stroke: #D44528;
 }
 
 .item-list-nav {
