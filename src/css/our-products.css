@@ -82,6 +82,9 @@
   width: 335px;
   margin-bottom: 32px;
 }
+.image-slider{
+  overflow-x: hidden;
+}
 
 @media screen and (min-width: 375px) {
   .image-slider__slide {
