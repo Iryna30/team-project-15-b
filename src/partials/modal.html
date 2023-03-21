@@ -1,87 +1,88 @@
 <!-- ============================================================================= -->
 <!-- =================================BUY NOW===================================== -->
 <!-- ============================================================================= -->
+<div class="overlay js-overlay-modal"></div>
 <div class="modal-container-buy modal" data-modal="new-buy">
   <button type="button" class="modal-close-btn-buy">
     <svg class="modal-icon-buy js-modal-close" width="28" height="28">
-      <use href="../img/symbol-defs.svg#icon-close"></use>
+      <use href="./img/symbol-defs.svg#icon-close"></use>
     </svg>
   </button>
   <h1 class="modal-title-buy">
     <span class="modal-title-accent-buy">BUY</span> NOW
   </h1>
   <ul class="modal-swiper-list modal-swiper">
-    <div class="swiper-wrapper swiper-slide-buy">
+    <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide-buy">
         <li class="modal-swiper-item">
           <div class="modal-swiper-window">
             <picture class="modal-swiper-img">
               <source
                 srcset="
-                  ../img/tab-desc-chocolate-nuts.jpg    1x,
-                  ../img/tab-desc-chocolate-nuts@2x.jpg 2x
+                  /img/tab-desc-chocolate-nuts.jpg    1x,
+                  /img/tab-desc-chocolate-nuts@2x.jpg 2x
                 "
                 media="(min-width:768px)"
               />
               <source
                 srcset="
-                  ../img/mobile-chocolate-nuts.jpg    1x,
-                  ../img/mobile-chocolate-nuts@2x.jpg 2x
+                  /img/mobile-chocolate-nuts.jpg    1x,
+                  /img/mobile-chocolate-nuts@2x.jpg 2x
                 "
                 media="(min-width:160px)"
               />
 
-              <img src="../img/mobile-chocolate-nuts.jpg" alt="chocolate" />
+              <img src="/img/mobile-chocolate-nuts.jpg" alt="chocolate" />
             </picture>
             <p class="modal-swiper-window-info">100 g</p>
           </div>
         </li>
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide swiper-slide-buy">
         <li class="modal-swiper-item">
           <div class="modal-swiper-window">
             <picture class="modal-swiper-img">
               <source
                 srcset="
-                  ../img/tab-desc-kinder-chocolate.jpg    1x,
-                  ../img/tab-desc-kinder-chocolate@2x.jpg 2x
+                  /img/tab-desc-kinder-chocolate.jpg    1x,
+                  /img/tab-desc-kinder-chocolate@2x.jpg 2x
                 "
                 media="(min-width:768px)"
               />
               <source
                 srcset="
-                  ../img/mobile-kinder-chocolate.jpg    1x,
-                  ../img/mobile-kinder-chocolate@2x.jpg 2x
+                  /img/mobile-kinder-chocolate.jpg    1x,
+                  /img/mobile-kinder-chocolate@2x.jpg 2x
                 "
                 media="(min-width:300px)"
               />
 
-              <img src="../img/mobile-kinder-chocolate.jpg" alt="chocolate" />
+              <img src="/img/mobile-kinder-chocolate.jpg" alt="chocolate" />
             </picture>
             <p class="modal-swiper-window-info">200 g</p>
           </div>
         </li>
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide swiper-slide-buy">
         <li class="modal-swiper-item">
           <div class="modal-swiper-window">
             <picture class="modal-swiper-img">
               <source
                 srcset="
-                  ../img/tab-desc-chocolate-bar.jpg    1x,
-                  ../img/tab-desc-chocolate-bar@2x.jpg 2x
+                  /img/tab-desc-chocolate-bar.jpg    1x,
+                  /img/tab-desc-chocolate-bar@2x.jpg 2x
                 "
                 media="(min-width:768px)"
               />
               <source
                 srcset="
-                  ../img/mobile-chocolate-bar.jpg    1x,
-                  ../img/mobile-chocolate-bar@2x.jpg 2x
+                  /img/mobile-chocolate-bar.jpg    1x,
+                  /img/mobile-chocolate-bar@2x.jpg 2x
                 "
                 media="(min-width:300px)"
               />
 
-              <img src="../img/mobile-chocolate-bar.jpg" alt="chocolate" />
+              <img src="/img/mobile-chocolate-bar.jpg" alt="chocolate" />
             </picture>
             <p class="modal-swiper-window-info">300 g</p>
           </div>
@@ -89,7 +90,7 @@
       </div>
     </div>
   </ul>
-  <div class="swiper-pagination"></div>
+  <div class="modal-swiper-pagination"></div>
   <form class="modal-form-buy">
     <label>
       <span class="modal-form-title-buy">Personal information</span>
@@ -150,17 +151,20 @@
     </label>
     <label class="">
       <span class="modal-form-title-buy">Card number</span>
-      <span class="">
-        <input
-          class="modal-form-input-buy"
-          type="tel"
-          name="user_card"
-          placeholder="Enter card"
-          required
-          pattern="[0-9]+"
-          maxlength="10"
-        />
+      <span class="modal-card-logo">
+        <svg class="modal-card-icon" width="32" height="21">
+          <use href="./img/symbol-defs.svg#icon-Mastercard"></use>
+        </svg>
       </span>
+      <input
+        class="modal-form-input-buy"
+        type="tel"
+        name="user_card"
+        placeholder="Enter card"
+        required
+        pattern="[0-9]+"
+        maxlength="10"
+      />
     </label>
     <label class="modal-form-textarea">
       <span class="modal-form-title-buy">Comment</span>
