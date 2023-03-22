@@ -97,6 +97,7 @@
     line-height: calc(17/ 14);
     color: var(--black-color);
     border: 1px solid var(--orange);
+    background-color: inherit;
     border-radius: 100px;
     transition-property: color, background-color;
     transition-duration: 250ms;

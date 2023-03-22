@@ -272,7 +272,7 @@
 /* =======================NEW BUY========================= */
 @media screen and (min-width: 768px) {
   .modal-container-buy {
-    overflow: scroll;
+    overflow-y: scroll;
     max-width: 609px;
     max-height: 100vh;
     padding: 48px;
@@ -338,7 +338,7 @@
   }
 
   .modal-form-personal-info {
-    width: 513px;
+    /* width: 513px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -348,7 +348,7 @@
   .modal-form-input-buy {
     padding: 22px 24px;
     border-radius: 13px;
-    min-width: 246px;
+    /* min-width: 246px; */
     height: 66px;
   }
 
@@ -398,7 +398,7 @@
 /* ======================================================= */
 
 .modal-container-review {
-  overflow: scroll;
+  overflow-y: scroll;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
