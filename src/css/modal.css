@@ -263,10 +263,8 @@
   color: var(--orange);
 }
 .modal-swiper-list {
-
-    
-    overflow-x: hidden;
-  }
+  overflow-x: hidden;
+}
 /* ===================================================== */
 /* ================TABLET/DESKTOP STYLE=================== */
 /* =======================NEW BUY========================= */
@@ -292,10 +290,8 @@
   }
 
   .modal-swiper-list {
-
     display: flex;
     gap: 16px;
-   
   }
 
   .swiper-slide-buy {
